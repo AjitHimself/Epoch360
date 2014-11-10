@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: efa4cb7c2fa18454e8f12d0b02934bde
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Block:_Oblique
+    100002: Block:_Oblique 1
+    100004: Block:_Oblique 10
+    100006: Block:_Oblique 11
+    100008: Block:_Oblique 2
+    100010: Block:_Oblique 3
+    100012: Block:_Oblique 4
+    100014: Block:_Oblique 5
+    100016: Block:_Oblique 6
+    100018: Block:_Oblique 7
+    100020: Block:_Oblique 8
+    100022: Block:_Oblique 9
+    100024: Box001
+    100026: Box002
+    100028: Box003
+    100030: Box004
+    100032: Box005
+    100034: Box006
+    100036: FixedWindow001
+    100038: FixedWindow002
+    100040: FixedWindow003
+    100042: FixedWindow004
+    100044: FixedWindow005
+    100046: FixedWindow006
+    100048: FixedWindow007
+    100050: FixedWindow009
+    100052: FixedWindow010
+    100054: FixedWindow012
+    100056: FixedWindow013
+    100058: //RootNode
+    100060: Layer:0
+    100062: Layer:appliances
+    100064: Layer:beam
+    100066: Layer:dimension
+    100068: Layer:dimension 1
+    100070: Layer:dimension 10
+    100072: Layer:dimension 11
+    100074: Layer:dimension 12
+    100076: Layer:dimension 2
+    100078: Layer:dimension 3
+    100080: Layer:dimension 4
+    100082: Layer:dimension 5
+    100084: Layer:dimension 6
+    100086: Layer:dimension 7
+    100088: Layer:dimension 8
+    100090: Layer:dimension 9
+    100092: Layer:doors
+    100094: Layer:glass
+    100096: Layer:hidden
+    100098: Layer:window
+    100100: PivotDoor001
+    100102: PivotDoor002
+    100104: PivotDoor003
+    100106: PivotDoor004
+    100108: PivotDoor005
+    100110: PivotDoor006
+    100112: PivotDoor007
+    100114: PivotDoor008
+    100116: PivotDoor009
+    100118: PivotDoor010
+    100120: PivotDoor011
+    100122: PivotDoor012
+    100124: PivotDoor013
+    100126: PivotDoor014
+    100128: PivotDoor015
+    100130: Plane001
+    100132: Rectangle001
+    100134: Rectangle002
+    100136: Rectangle003
+    100138: Rectangle004
+    100140: Rectangle005
+    100142: Rectangle006
+    100144: Rectangle007
+    100146: Rectangle008
+    100148: Rectangle009
+    100150: Rectangle010
+    100152: Rectangle011
+    100154: Rectangle012
+    100156: Rectangle013
+    100158: Rectangle014
+    100160: Rectangle015
+    100162: Rectangle016
+    100164: Rectangle017
+    100166: Rectangle018
+    100168: Rectangle019
+    100170: Rectangle020
+    100172: Rectangle021
+    100174: Rectangle022
+    100176: Rectangle023
+    100178: Rectangle024
+    100180: Rectangle025
+    100182: Rectangle026
+    100184: Rectangle027
+    100186: Rectangle028
+    100188: Rectangle029
+    100190: Rectangle030
+    100192: Rectangle031
+    100194: Rectangle032
+    100196: Rectangle033
+    100198: Rectangle034
+    100200: Rectangle035
+    100202: Rectangle036
+    100204: Rectangle037
+    100206: Rectangle038
+    100208: Rectangle039
+    100210: Rectangle040
+    100212: Rectangle041
+    100214: Rectangle042
+    100216: Rectangle043
+    100218: Rectangle044
+    100220: Rectangle045
+    100222: Rectangle046
+    100224: Rectangle047
+    100226: Rectangle048
+    100228: Rectangle049
+    100230: SlidingDoor001
+    100232: SlidingDoor002
+    100234: SlidingDoor003
+    100236: SlidingWindow001
+    100238: SlidingWindow002
+    100240: SlidingWindow003
+    100242: SlidingWindow004
+    100244: SlidingWindow005
+    400000: Block:_Oblique
+    400002: Block:_Oblique 1
+    400004: Block:_Oblique 10
+    400006: Block:_Oblique 11
+    400008: Block:_Oblique 2
+    400010: Block:_Oblique 3
+    400012: Block:_Oblique 4
+    400014: Block:_Oblique 5
+    400016: Block:_Oblique 6
+    400018: Block:_Oblique 7
+    400020: Block:_Oblique 8
+    400022: Block:_Oblique 9
+    400024: Box001
+    400026: Box002
+    400028: Box003
+    400030: Box004
+    400032: Box005
+    400034: Box006
+    400036: FixedWindow001
+    400038: FixedWindow002
+    400040: FixedWindow003
+    400042: FixedWindow004
+    400044: FixedWindow005
+    400046: FixedWindow006
+    400048: FixedWindow007
+    400050: FixedWindow009
+    400052: FixedWindow010
+    400054: FixedWindow012
+    400056: FixedWindow013
+    400058: //RootNode
+    400060: Layer:0
+    400062: Layer:appliances
+    400064: Layer:beam
+    400066: Layer:dimension
+    400068: Layer:dimension 1
+    400070: Layer:dimension 10
+    400072: Layer:dimension 11
+    400074: Layer:dimension 12
+    400076: Layer:dimension 2
+    400078: Layer:dimension 3
+    400080: Layer:dimension 4
+    400082: Layer:dimension 5
+    400084: Layer:dimension 6
+    400086: Layer:dimension 7
+    400088: Layer:dimension 8
+    400090: Layer:dimension 9
+    400092: Layer:doors
+    400094: Layer:glass
+    400096: Layer:hidden
+    400098: Layer:window
+    400100: PivotDoor001
+    400102: PivotDoor002
+    400104: PivotDoor003
+    400106: PivotDoor004
+    400108: PivotDoor005
+    400110: PivotDoor006
+    400112: PivotDoor007
+    400114: PivotDoor008
+    400116: PivotDoor009
+    400118: PivotDoor010
+    400120: PivotDoor011
+    400122: PivotDoor012
+    400124: PivotDoor013
+    400126: PivotDoor014
+    400128: PivotDoor015
+    400130: Plane001
+    400132: Rectangle001
+    400134: Rectangle002
+    400136: Rectangle003
+    400138: Rectangle004
+    400140: Rectangle005
+    400142: Rectangle006
+    400144: Rectangle007
+    400146: Rectangle008
+    400148: Rectangle009
+    400150: Rectangle010
+    400152: Rectangle011
+    400154: Rectangle012
+    400156: Rectangle013
+    400158: Rectangle014
+    400160: Rectangle015
+    400162: Rectangle016
+    400164: Rectangle017
+    400166: Rectangle018
+    400168: Rectangle019
+    400170: Rectangle020
+    400172: Rectangle021
+    400174: Rectangle022
+    400176: Rectangle023
+    400178: Rectangle024
+    400180: Rectangle025
+    400182: Rectangle026
+    400184: Rectangle027
+    400186: Rectangle028
+    400188: Rectangle029
+    400190: Rectangle030
+    400192: Rectangle031
+    400194: Rectangle032
+    400196: Rectangle033
+    400198: Rectangle034
+    400200: Rectangle035
+    400202: Rectangle036
+    400204: Rectangle037
+    400206: Rectangle038
+    400208: Rectangle039
+    400210: Rectangle040
+    400212: Rectangle041
+    400214: Rectangle042
+    400216: Rectangle043
+    400218: Rectangle044
+    400220: Rectangle045
+    400222: Rectangle046
+    400224: Rectangle047
+    400226: Rectangle048
+    400228: Rectangle049
+    400230: SlidingDoor001
+    400232: SlidingDoor002
+    400234: SlidingDoor003
+    400236: SlidingWindow001
+    400238: SlidingWindow002
+    400240: SlidingWindow003
+    400242: SlidingWindow004
+    400244: SlidingWindow005
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: Box006
+    2300012: FixedWindow001
+    2300014: FixedWindow002
+    2300016: FixedWindow003
+    2300018: FixedWindow004
+    2300020: FixedWindow005
+    2300022: FixedWindow006
+    2300024: FixedWindow007
+    2300026: FixedWindow009
+    2300028: FixedWindow010
+    2300030: FixedWindow012
+    2300032: FixedWindow013
+    2300034: PivotDoor001
+    2300036: PivotDoor002
+    2300038: PivotDoor003
+    2300040: PivotDoor004
+    2300042: PivotDoor005
+    2300044: PivotDoor006
+    2300046: PivotDoor007
+    2300048: PivotDoor008
+    2300050: PivotDoor009
+    2300052: PivotDoor010
+    2300054: PivotDoor011
+    2300056: PivotDoor012
+    2300058: PivotDoor013
+    2300060: PivotDoor014
+    2300062: PivotDoor015
+    2300064: Plane001
+    2300066: Rectangle001
+    2300068: Rectangle002
+    2300070: Rectangle003
+    2300072: Rectangle004
+    2300074: Rectangle005
+    2300076: Rectangle006
+    2300078: Rectangle007
+    2300080: Rectangle008
+    2300082: Rectangle009
+    2300084: Rectangle010
+    2300086: Rectangle011
+    2300088: Rectangle012
+    2300090: Rectangle013
+    2300092: Rectangle014
+    2300094: Rectangle015
+    2300096: Rectangle016
+    2300098: Rectangle017
+    2300100: Rectangle018
+    2300102: Rectangle019
+    2300104: Rectangle020
+    2300106: Rectangle021
+    2300108: Rectangle022
+    2300110: Rectangle023
+    2300112: Rectangle024
+    2300114: Rectangle025
+    2300116: Rectangle026
+    2300118: Rectangle027
+    2300120: Rectangle028
+    2300122: Rectangle029
+    2300124: Rectangle030
+    2300126: Rectangle031
+    2300128: Rectangle032
+    2300130: Rectangle033
+    2300132: Rectangle034
+    2300134: Rectangle035
+    2300136: Rectangle036
+    2300138: Rectangle037
+    2300140: Rectangle038
+    2300142: Rectangle039
+    2300144: Rectangle040
+    2300146: Rectangle041
+    2300148: Rectangle042
+    2300150: Rectangle043
+    2300152: Rectangle044
+    2300154: Rectangle045
+    2300156: Rectangle046
+    2300158: Rectangle047
+    2300160: Rectangle048
+    2300162: Rectangle049
+    2300164: SlidingDoor001
+    2300166: SlidingDoor002
+    2300168: SlidingDoor003
+    2300170: SlidingWindow001
+    2300172: SlidingWindow002
+    2300174: SlidingWindow003
+    2300176: SlidingWindow004
+    2300178: SlidingWindow005
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: Box006
+    3300012: FixedWindow001
+    3300014: FixedWindow002
+    3300016: FixedWindow003
+    3300018: FixedWindow004
+    3300020: FixedWindow005
+    3300022: FixedWindow006
+    3300024: FixedWindow007
+    3300026: FixedWindow009
+    3300028: FixedWindow010
+    3300030: FixedWindow012
+    3300032: FixedWindow013
+    3300034: PivotDoor001
+    3300036: PivotDoor002
+    3300038: PivotDoor003
+    3300040: PivotDoor004
+    3300042: PivotDoor005
+    3300044: PivotDoor006
+    3300046: PivotDoor007
+    3300048: PivotDoor008
+    3300050: PivotDoor009
+    3300052: PivotDoor010
+    3300054: PivotDoor011
+    3300056: PivotDoor012
+    3300058: PivotDoor013
+    3300060: PivotDoor014
+    3300062: PivotDoor015
+    3300064: Plane001
+    3300066: Rectangle001
+    3300068: Rectangle002
+    3300070: Rectangle003
+    3300072: Rectangle004
+    3300074: Rectangle005
+    3300076: Rectangle006
+    3300078: Rectangle007
+    3300080: Rectangle008
+    3300082: Rectangle009
+    3300084: Rectangle010
+    3300086: Rectangle011
+    3300088: Rectangle012
+    3300090: Rectangle013
+    3300092: Rectangle014
+    3300094: Rectangle015
+    3300096: Rectangle016
+    3300098: Rectangle017
+    3300100: Rectangle018
+    3300102: Rectangle019
+    3300104: Rectangle020
+    3300106: Rectangle021
+    3300108: Rectangle022
+    3300110: Rectangle023
+    3300112: Rectangle024
+    3300114: Rectangle025
+    3300116: Rectangle026
+    3300118: Rectangle027
+    3300120: Rectangle028
+    3300122: Rectangle029
+    3300124: Rectangle030
+    3300126: Rectangle031
+    3300128: Rectangle032
+    3300130: Rectangle033
+    3300132: Rectangle034
+    3300134: Rectangle035
+    3300136: Rectangle036
+    3300138: Rectangle037
+    3300140: Rectangle038
+    3300142: Rectangle039
+    3300144: Rectangle040
+    3300146: Rectangle041
+    3300148: Rectangle042
+    3300150: Rectangle043
+    3300152: Rectangle044
+    3300154: Rectangle045
+    3300156: Rectangle046
+    3300158: Rectangle047
+    3300160: Rectangle048
+    3300162: Rectangle049
+    3300164: SlidingDoor001
+    3300166: SlidingDoor002
+    3300168: SlidingDoor003
+    3300170: SlidingWindow001
+    3300172: SlidingWindow002
+    3300174: SlidingWindow003
+    3300176: SlidingWindow004
+    3300178: SlidingWindow005
+    4300000: Box001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Box005
+    4300010: Box006
+    4300012: Plane001
+    4300014: Rectangle001
+    4300016: Rectangle002
+    4300018: Rectangle003
+    4300020: Rectangle004
+    4300022: Rectangle005
+    4300024: Rectangle006
+    4300026: Rectangle007
+    4300028: Rectangle008
+    4300030: Rectangle009
+    4300032: Rectangle010
+    4300034: Rectangle011
+    4300036: Rectangle012
+    4300038: Rectangle013
+    4300040: Rectangle014
+    4300042: Rectangle015
+    4300044: Rectangle016
+    4300046: Rectangle017
+    4300048: Rectangle018
+    4300050: Rectangle019
+    4300052: Rectangle020
+    4300054: Rectangle021
+    4300056: Rectangle022
+    4300058: Rectangle023
+    4300060: Rectangle024
+    4300062: Rectangle025
+    4300064: Rectangle026
+    4300066: Rectangle027
+    4300068: Rectangle028
+    4300070: Rectangle029
+    4300072: Rectangle030
+    4300074: Rectangle031
+    4300076: Rectangle032
+    4300078: Rectangle033
+    4300080: Rectangle034
+    4300082: Rectangle035
+    4300084: Rectangle036
+    4300086: Rectangle037
+    4300088: Rectangle038
+    4300090: Rectangle039
+    4300092: Rectangle040
+    4300094: Rectangle041
+    4300096: Rectangle042
+    4300098: Rectangle043
+    4300100: Rectangle044
+    4300102: Rectangle045
+    4300104: Rectangle046
+    4300106: Rectangle047
+    4300108: Rectangle048
+    4300110: Rectangle049
+    4300112: FixedWindow001
+    4300114: FixedWindow002
+    4300116: SlidingWindow001
+    4300118: SlidingWindow002
+    4300120: SlidingWindow003
+    4300122: FixedWindow003
+    4300124: FixedWindow004
+    4300126: FixedWindow005
+    4300128: FixedWindow006
+    4300130: FixedWindow007
+    4300132: FixedWindow009
+    4300134: FixedWindow010
+    4300136: FixedWindow012
+    4300138: FixedWindow013
+    4300140: SlidingWindow004
+    4300142: SlidingWindow005
+    4300144: PivotDoor001
+    4300146: PivotDoor002
+    4300148: PivotDoor003
+    4300150: PivotDoor004
+    4300152: PivotDoor005
+    4300154: PivotDoor006
+    4300156: PivotDoor007
+    4300158: PivotDoor008
+    4300160: PivotDoor009
+    4300162: SlidingDoor001
+    4300164: SlidingDoor002
+    4300166: SlidingDoor003
+    4300168: PivotDoor010
+    4300170: PivotDoor011
+    4300172: PivotDoor012
+    4300174: PivotDoor013
+    4300176: PivotDoor014
+    4300178: PivotDoor015
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
