@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveCS.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RotateRelativeToCamera.js">
     <Files>
-      <File FileName="Assets\Scripts\MoveCS.cs" Line="14" Column="74" />
+      <File FileName="Assets\Scripts\MoveCS.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\RayCast.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotateRelativeToCamera.js" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

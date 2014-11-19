@@ -4,13 +4,23 @@ using System.Collections;
 public class MoveCS : MonoBehaviour {
 	public float movementSpeed = 1;
 	public float turningSpeed = 60;
-	//public Vector3 face;
+	public int flag = 0;
 	// Update is called once per frame
 	void Update () {
-		//float horizontal = Input.GetAxis("Horizontal") * turningSpeed * Time.deltaTime;
-		//transform.Rotate(0, horizontal, 0);
-		//float vertical = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;
-		//transform.Translate(0, 0, vertical);
-		transform.position += Vector3.forward * Time.deltaTime * movementSpeed;
+		// For the camera movement inside the scene
+		//transform.position += transform.forward * Time.deltaTime * movementSpeed;
+		if ( Input.GetButtonDown("Fire1") ) // Trying to get a look at control here
+		{
+			if(flag==0){flag=1;}
+			else{flag=0;}
+		}
+
+		if (flag == 1) {
+			startMove ();
+				} 
+
+	}
+	public void startMove(){
+		transform.position += transform.forward * Time.deltaTime * movementSpeed;
 	}
 }
