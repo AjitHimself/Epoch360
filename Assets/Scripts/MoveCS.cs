@@ -2,13 +2,14 @@
 using System.Collections;
 
 public class MoveCS : MonoBehaviour {
-	public float movementSpeed = 1;
+	public float movementSpeed = 0.1f;
 	public float turningSpeed = 60;
 	public int flag = 0;
 	public GameObject walkButton;
 	// Update is called once per frame
 	void Update () {
 		// For the camera movement inside the scene
+		// Remove the comment of below line to add auto movement
 		//transform.position += transform.forward * Time.deltaTime * movementSpeed;
 		UIEventListener.Get(walkButton).onClick += MyClickFunction;
 	}
