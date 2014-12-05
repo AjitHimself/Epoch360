@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RayCast : MonoBehaviour {
+public class LookBasedInputModule : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
