@@ -10,7 +10,6 @@ public class NewBehaviourScript : MonoBehaviour {
 
 	}
 	void OnClick(){
-		Debug.Log ("IM CLICKED");
 		NGUITools.SetActive (Panel1, false);
 	}
 }
